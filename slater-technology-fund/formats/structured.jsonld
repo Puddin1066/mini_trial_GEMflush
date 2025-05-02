@@ -64,7 +64,7 @@ The organization's success is built on a foundation of strong values and a commi
     },
     "author": {
       "@type": "Organization",
-      "name": "GEO Trial Analysis"
+      "name": "Industry Analysis"
     }
   },
   "geo": {
@@ -81,74 +81,5 @@ The organization's success is built on a foundation of strong values and a commi
   ],
   "hasCredential": [
     []
-  ],
-  "geo_methods": [
-    {
-      "@type": "DefinedTerm",
-      "name": "Authoritative",
-      "description": "Enhances content with authoritative language and persuasive elements"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Statistics Addition",
-      "description": "Incorporates quantitative data and metrics to support claims"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Keyword Stuffing",
-      "description": "Optimizes content with relevant keywords for better visibility"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Cite Sources",
-      "description": "Adds credible references and citations to support information"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Quotation Addition",
-      "description": "Includes relevant quotations from industry experts"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Easy-to-Understand",
-      "description": "Simplifies complex concepts for better comprehension"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Fluency Optimization",
-      "description": "Improves text flow and readability"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Unique Words",
-      "description": "Incorporates distinctive terminology to enhance content"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Technical Terms",
-      "description": "Adds industry-specific technical language where appropriate"
-    }
-  ],
-  "additionalProperty": [
-    {
-      "@type": "PropertyValue",
-      "name": "Content Length",
-      "value": "9194 words"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Last Updated",
-      "value": "2025-05-02T00:10:44.411824"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Content Format",
-      "value": "JSON-LD with Schema.org markup"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "GEO Methods Count",
-      "value": "9"
-    }
   ]
 }
