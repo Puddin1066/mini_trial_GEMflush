@@ -3,5 +3,30 @@
   "@type": "Organization",
   "name": "Educational Institution",
   "description": "Slater Technology Fund is a venture capital firm focused on early-stage technology companies in Rhode Island, serving as a cornerstone of the state's innovation ecosystem since 1997. As Rhode Island's",
-  "url": "https://www.slaterfund.com"
+  "url": "https://www.slaterfund.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Rhode Island"
+  },
+  "sameAs": [
+    "https://www.slaterfund.com"
+  ],
+  "additionalType": "educational institution",
+  "dateModified": "2025-05-01T23:21:19.621601",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.slaterfund.com"
+  },
+  "content": {
+    "@type": "Text",
+    "text": "Slater Technology Fund is a venture capital firm focused on early-stage technology companies in Rhode Island, serving as a cornerstone of the state's innovation ecosystem since 1997. As Rhode Island's most active seed-stage investor, the fund has played a pivotal role in transforming the state's economy through strategic investments in technology-driven enterprises. The fund specializes in seed and early-stage investments, with particular emphasis on sectors including life sciences, information "
+  },
+  "service": {
+    "@type": "Service",
+    "description": "technology, advanced materials, and cleantech innovations. The fund's investment strategy is built on a deep understanding of Rhode Island's unique entrepreneurial landscape. With initial investments "
+  },
+  "impact": {
+    "@type": "Text",
+    "text": "d valuable connections within the region's business ecosystem. Slater's impact on Rhode Island's economy has been substantial and measurable. Through its investments, the fund has helped create hundre"
+  }
 }
