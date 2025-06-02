@@ -1,10 +1,10 @@
 {
   "fingerprint_version": "1.0",
-  "diagnostic_timestamp": "2025-06-02T12:04:15.650038+00:00",
+  "diagnostic_timestamp": "2025-06-02T12:10:04.852577+00:00",
   "zip_code": "90210",
   "business_name": "Sunrise Bakery",
   "business_type": "bakery",
-  "fingerprint_id": "a975e0a1c8940290ec02fcaa33172e79d6094930a09d0848a3881f3d864265ba",
+  "fingerprint_id": "5b81fda3e0a1e59e398344fef9100c9e0b4fe34a243995e87c3af1999db4d375",
   "exists": false,
   "existence_summary": "\"No evidence found for this business.\"",
   "llm_visibility_score": null,
