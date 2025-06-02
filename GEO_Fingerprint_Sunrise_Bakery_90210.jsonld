@@ -1,0 +1,52 @@
+{
+  "fingerprint_version": "1.0",
+  "diagnostic_timestamp": "2025-06-02T02:35:37.870013+00:00",
+  "zip_code": "90210",
+  "business_name": "Sunrise Bakery",
+  "business_type": "bakery",
+  "fingerprint_id": "04d731a54f81ac38e2761b8b8dc6f78e9ca7f414a4951441d1e804e4fce49d57",
+  "llm_visibility_score": 7,
+  "llm_visibility_confidence": 4,
+  "qualitative_assessment": "Sunrise Bakery in ZIP code 90210 is likely to have moderate visibility in ChatGPT or other LLM answers for relevant local queries.",
+  "key_factors": [
+    "Business name relevance to query keywords",
+    "Proximity to the searcher's location",
+    "Online reviews and ratings",
+    "Website quality and SEO optimization"
+  ],
+  "quantitative_metrics": {
+    "estimated_mentions_per_month": 500,
+    "local_ranking_estimate": 3
+  },
+  "local_competitors": [
+    {
+      "name": "Beverly Hills Bakeshop",
+      "reason": "Located in the same upscale area as Sunrise Bakery, catering to a similar demographic."
+    },
+    {
+      "name": "Golden Crust Bakery",
+      "reason": "Known for their specialty bread and pastries, offering a similar product range as Sunrise Bakery."
+    }
+  ],
+  "actionable_steps": [
+    "1. Optimize website content with relevant keywords related to bakery products and services in ZIP code 90210.",
+    "2. Create and regularly update a Google My Business profile with accurate information, photos, and customer reviews.",
+    "3. Utilize social media platforms to showcase bakery products, engage with customers, and promote special offers or events.",
+    "4. Collaborate with local influencers or bloggers to feature Sunrise Bakery in their content and reach a wider audience.",
+    "5. Consider running targeted online advertising campaigns to reach potential customers in ZIP code 90210."
+  ],
+  "proof_or_reasoning": "LLM visibility status of 'Sunrise Bakery' in ZIP code 90210 is currently unavailable due to lack of specific data or access to real-time information.",
+  "sentiment": "positive",
+  "sentiment_score": 75,
+  "last_published": null,
+  "last_enhanced": null,
+  "enhancement_recommendations": [],
+  "raw_llm_responses": {
+    "qualitative": "{\"qualitative_assessment\": \"Sunrise Bakery in ZIP code 90210 is likely to have moderate visibility in ChatGPT or other LLM answers for relevant local queries.\", \"key_factors\": [\"Business name relevance to query keywords\", \"Proximity to the searcher's location\", \"Online reviews and ratings\", \"Website quality and SEO optimization\"]}",
+    "quantitative": "{\n    \"llm_visibility_score\": 7,\n    \"llm_visibility_confidence\": 4,\n    \"quantitative_metrics\": {\n        \"estimated_mentions_per_month\": 500,\n        \"local_ranking_estimate\": 3\n    }\n}",
+    "competitors": "{\"local_competitors\": [{\"name\": \"Beverly Hills Bakeshop\", \"reason\": \"Located in the same upscale area as Sunrise Bakery, catering to a similar demographic.\"}, {\"name\": \"Golden Crust Bakery\", \"reason\": \"Known for their specialty bread and pastries, offering a similar product range as Sunrise Bakery.\"}]}",
+    "actionable": "{\"actionable_steps\": [\"1. Optimize website content with relevant keywords related to bakery products and services in ZIP code 90210.\", \"2. Create and regularly update a Google My Business profile with accurate information, photos, and customer reviews.\", \"3. Utilize social media platforms to showcase bakery products, engage with customers, and promote special offers or events.\", \"4. Collaborate with local influencers or bloggers to feature Sunrise Bakery in their content and reach a wider audience.\", \"5. Consider running targeted online advertising campaigns to reach potential customers in ZIP code 90210.\"]}",
+    "proof": "{\"proof_or_reasoning\": \"LLM visibility status of 'Sunrise Bakery' in ZIP code 90210 is currently unavailable due to lack of specific data or access to real-time information.\"}",
+    "sentiment": "{\n    \"sentiment\": \"positive\",\n    \"sentiment_score\": 75\n}"
+  }
+}
