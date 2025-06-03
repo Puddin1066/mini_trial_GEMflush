@@ -4,43 +4,12 @@
   "name": "J Marcel",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "808 Main Street",
-    "addressLocality": "Anytown",
-    "addressRegion": "CA",
-    "postalCode": "90001",
-    "addressCountry": "US"
+    "streetAddress": "808",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02906"
   },
-  "telephone": "+1-123-456-7890",
-  "email": "info@jmarcel808.com",
-  "url": "https://www.jmarcel808.com",
-  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
-  "description": "J Marcel is a local business in Anytown offering a variety of services.",
-  "image": "https://www.jmarcel808.com/logo.jpg",
-  "servesCuisine": "Various",
-  "priceRange": "$$",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "menu": "https://www.jmarcel808.com/menu",
-  "hasMap": "https://goo.gl/maps/1234567890",
-  "serviceArea": {
-    "@type": "GeoShape",
-    "circle": "37.12345,-122.12345 5000"
-  },
-  "serviceType": "Beauty Salon",
-  "serviceOffered": [
-    {
-      "@type": "Service",
-      "name": "Haircut",
-      "description": "Professional haircuts for men and women"
-    },
-    {
-      "@type": "Service",
-      "name": "Hair Color",
-      "description": "Expert hair coloring services"
-    },
-    {
-      "@type": "Service",
-      "name": "Manicure",
-      "description": "Pampering manicure treatments"
-    }
-  ]
+  "telephone": "Contact: RI 02906",
+  "url": "Website:",
+  "description": "Women's boutique featuring fashion-forward clothing and accessories."
 }
