@@ -1,42 +1,32 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main St",
+    "streetAddress": "123 Main Street",
     "addressLocality": "Cityville",
     "addressRegion": "Stateville",
     "postalCode": "12345",
     "addressCountry": "US"
   },
   "telephone": "123-456-7890",
-  "url": "http://www.glazendazedonuts.com",
-  "image": "http://www.glazendazedonuts.com/logo.jpg",
-  "description": "Glaze'n Daze Donuts offers a variety of freshly made, delicious donuts to satisfy your cravings.",
-  "openingHours": "Mo-Su 06:00-18:00",
+  "image": "https://example.com/logo.jpg",
+  "url": "https://glazendazedonuts.com",
   "priceRange": "$",
+  "openingHours": [
+    "Mo-Sa 07:00-18:00",
+    "Su 08:00-15:00"
+  ],
+  "description": "Glaze'n Daze Donuts offers a wide variety of freshly baked donuts and coffee, perfect for breakfast or a sweet treat any time of the day.",
   "servesCuisine": "Donuts",
-  "hasMap": "https://goo.gl/maps/abc123",
+  "hasMap": "https://goo.gl/maps/abcdefg",
   "paymentAccepted": ["Cash", "Credit Card"],
   "currenciesAccepted": "USD",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "12.3456",
-    "longitude": "-78.9012"
-  },
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "http://www.glazendazedonuts.com/reservations",
-      "inLanguage": "en-US",
-      "actionPlatform": [
-        "http://schema.org/DesktopWebPlatform",
-        "http://schema.org/IOSPlatform",
-        "http://schema.org/AndroidPlatform"
-      ]
-    }
-  }
+  "logo": "https://example.com/logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/glazendazedonuts",
+    "https://twitter.com/glazendazedonuts",
+    "https://www.instagram.com/glazendazedonuts"
+  ]
 }
