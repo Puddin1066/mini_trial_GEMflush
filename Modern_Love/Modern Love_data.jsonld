@@ -4,31 +4,12 @@
   "name": "Modern Love",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "220",
-    "addressRegion": "State",
-    "postalCode": "12345",
-    "addressCountry": "Country"
+    "streetAddress": "220",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02903"
   },
-  "telephone": "123-456-7890",
-  "email": "info@modernlove.com",
-  "url": "https://www.modernlove.com",
-  "description": "Modern Love is a contemporary restaurant offering a fusion of flavors and culinary experiences.",
-  "image": "https://www.modernlove.com/images/logo.jpg",
-  "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 11:00-22:00",
-  "priceRange": "$$$",
-  "servesCuisine": "Fusion",
-  "hasMenu": "https://www.modernlove.com/menu",
-  "acceptsReservations": true,
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.7128",
-    "longitude": "74.0060"
-  },
-  "sameAs": [
-    "https://www.facebook.com/modernlove",
-    "https://www.instagram.com/modernlove",
-    "https://twitter.com/modernlove"
-  ]
+  "telephone": "Contact: RI",
+  "url": "Website: ",
+  "description": "Boutique offering modern and minimalist home goods and gifts."
 }
