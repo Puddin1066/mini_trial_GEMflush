@@ -7,40 +7,40 @@
     "streetAddress": "808 Main Street",
     "addressLocality": "Anytown",
     "addressRegion": "CA",
-    "postalCode": "90210",
+    "postalCode": "90001",
     "addressCountry": "US"
   },
-  "telephone": "123-456-7890",
-  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
-  "image": "https://example.com/logo.jpg",
+  "telephone": "+1-123-456-7890",
+  "email": "info@jmarcel808.com",
   "url": "https://www.jmarcel808.com",
-  "description": "J Marcel is a local business in 808 that offers a variety of services.",
-  "servesCuisine": "American",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+  "description": "J Marcel is a local business in Anytown offering a variety of services.",
+  "image": "https://www.jmarcel808.com/logo.jpg",
+  "servesCuisine": "Various",
   "priceRange": "$$",
-  "paymentAccepted": "Cash, Credit Card",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "37.7749",
-    "longitude": "-122.4194"
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "menu": "https://www.jmarcel808.com/menu",
+  "hasMap": "https://goo.gl/maps/1234567890",
+  "serviceArea": {
+    "@type": "GeoShape",
+    "circle": "37.12345,-122.12345 5000"
   },
-  "hasMap": "https://www.google.com/maps/place/808+Main+Street+Anytown+CA",
-  "sameAs": [
-    "https://www.facebook.com/jmarcel808",
-    "https://twitter.com/jmarcel808",
-    "https://www.instagram.com/jmarcel808"
-  ],
-  "openingHoursSpecification": [
+  "serviceType": "Beauty Salon",
+  "serviceOffered": [
     {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "17:00"
+      "@type": "Service",
+      "name": "Haircut",
+      "description": "Professional haircuts for men and women"
+    },
+    {
+      "@type": "Service",
+      "name": "Hair Color",
+      "description": "Expert hair coloring services"
+    },
+    {
+      "@type": "Service",
+      "name": "Manicure",
+      "description": "Pampering manicure treatments"
     }
   ]
 }
