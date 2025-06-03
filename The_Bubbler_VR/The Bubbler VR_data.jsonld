@@ -6,47 +6,47 @@
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "Cityville",
-    "addressRegion": "Stateville",
+    "addressRegion": "ST",
     "postalCode": "568",
     "addressCountry": "US"
   },
   "telephone": "123-456-7890",
+  "openingHours": "Mo, Tu, We, Th, Fr 10:00-20:00",
+  "description": "The Bubbler VR offers immersive virtual reality experiences for all ages.",
+  "image": "https://example.com/logo.jpg",
   "url": "https://www.thebubblervr.com",
-  "image": "https://www.thebubblervr.com/images/logo.jpg",
-  "description": "The Bubbler VR offers virtual reality experiences for all ages.",
-  "openingHours": "Mo-Fr 09:00-17:00",
-  "priceRange": "$$",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "40.7128",
-    "longitude": "74.0060"
+    "longitude": "-74.0060"
   },
-  "hasMap": "https://www.google.com/maps/place/The+Bubbler+VR",
+  "priceRange": "$$",
   "servesCuisine": "Virtual Reality Entertainment",
-  "additionalType": "https://www.wikidata.org/wiki/Q107609",
   "paymentAccepted": "Cash, Credit Card",
-  "currenciesAccepted": "USD",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Monday-Friday",
-    "opens": "09:00",
-    "closes": "17:00"
+  "hasMap": "https://www.google.com/maps/place/123+Main+Street+Cityville+ST+568",
+  "sameAs": [
+    "https://www.facebook.com/thebubblervr",
+    "https://www.instagram.com/thebubblervr"
+  ],
+  "areaServed": {
+    "@type": "GeoShape",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Cityville, ST 568",
+      "addressCountry": "US"
+    }
   },
   "potentialAction": {
     "@type": "ReserveAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.thebubblervr.com/reserve",
+      "urlTemplate": "https://www.thebubblervr.com/book",
       "inLanguage": "en-US",
       "actionPlatform": [
         "http://schema.org/DesktopWebPlatform",
         "http://schema.org/IOSPlatform",
         "http://schema.org/AndroidPlatform"
       ]
-    },
-    "result": {
-      "@type": "Reservation",
-      "name": "Book a VR Experience"
     }
   }
 }
