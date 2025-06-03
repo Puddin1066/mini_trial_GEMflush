@@ -1,17 +1,20 @@
-```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Black Leaf Tea & Culture Shop",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "71",
+    "streetAddress": "71 Broadway",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02903"
+    "postalCode": "02903",
+    "addressCountry": "US"
   },
-  "telephone": "Contact: RI 02903",
-  "url": "",
-  "description": "Tea shop offering a variety of loose-leaf teas and cultural products."
+  "telephone": "(401) 441-5466",
+  "url": "https://www.blackleaftea.com/",
+  "description": "Tea shop offering a variety of loose-leaf teas and cultural products.",
+  "openingHours": "Mo-Sa 09:00-18:00",
+  "image": "https://www.blackleaftea.com/images/logo.jpg",
+  "servesCuisine": "Tea, Cultural Products",
+  "paymentAccepted": ["Cash", "Credit Card"]
 }
-```
