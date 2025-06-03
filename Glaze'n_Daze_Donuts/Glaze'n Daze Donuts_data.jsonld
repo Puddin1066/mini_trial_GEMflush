@@ -4,29 +4,13 @@
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "Stateville",
-    "postalCode": "12345",
-    "addressCountry": "US"
+    "streetAddress": "Johnston",
+    "addressLocality": "",
+    "addressRegion": "39",
+    "postalCode": "RI 02919"
   },
-  "telephone": "123-456-7890",
-  "image": "https://example.com/logo.jpg",
-  "url": "https://glazendazedonuts.com",
-  "priceRange": "$",
-  "openingHours": [
-    "Mo-Sa 07:00-18:00",
-    "Su 08:00-15:00"
-  ],
-  "description": "Glaze'n Daze Donuts offers a wide variety of freshly baked donuts and coffee, perfect for breakfast or a sweet treat any time of the day.",
-  "servesCuisine": "Donuts",
-  "hasMap": "https://goo.gl/maps/abcdefg",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "currenciesAccepted": "USD",
-  "logo": "https://example.com/logo.jpg",
-  "sameAs": [
-    "https://www.facebook.com/glazendazedonuts",
-    "https://twitter.com/glazendazedonuts",
-    "https://www.instagram.com/glazendazedonuts"
-  ]
+  "telephone": "Contact: RI 02919",
+  "url": "Website: ",
+  "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
+  "servesCuisine": "Donuts"
 }
