@@ -1,0 +1,29 @@
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Frog & Toad",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "795 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "State",
+    "postalCode": "79500",
+    "addressCountry": "Country"
+  },
+  "telephone": "+1234567890",
+  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+  "url": "https://www.frogandtoad795.com",
+  "description": "Frog & Toad is a local business offering a variety of products for nature enthusiasts.",
+  "image": "https://www.frogandtoad795.com/images/logo.jpg",
+  "priceRange": "$$",
+  "paymentAccepted": "Cash, Credit Card",
+  "servesCuisine": "Nature-inspired products",
+  "hasMap": "https://maps.google.com/maps?q=795+Main+Street+Cityville",
+  "sameAs": [
+    "https://www.facebook.com/frogandtoad795",
+    "https://www.instagram.com/frogandtoad795",
+    "https://twitter.com/frogandtoad795"
+  ]
+}
+```
