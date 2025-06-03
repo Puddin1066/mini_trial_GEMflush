@@ -1,6 +1,6 @@
 {
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
+  "@context": "https://schema.org",
+  "@type": "Bakery",
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
@@ -12,27 +12,7 @@
   },
   "url": "https://www.facebook.com/GlazenDazeDonuts/",
   "telephone": "(401) 270-5757",
-  "image": "https://www.facebook.com/GlazenDazeDonuts/",
   "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
-  "openingHours": "Mo-Sa 07:00-17:00",
-  "priceRange": "$",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 41.836456,
-    "longitude": -71.516081
-  },
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://www.facebook.com/GlazenDazeDonuts/"
-    },
-    "result": {
-      "@type": "Reservation",
-      "name": "Order Online"
-    }
-  },
-  "hasMap": "https://goo.gl/maps/2G2QV7Z6eG7Vh2vJ9",
-  "businessType": "Bakery",
-  "servesCuisine": "Donuts"
+  "servesCuisine": "Donuts",
+  "keywords": "gourmet donuts, Johnston bakery, unique pastries"
 }
