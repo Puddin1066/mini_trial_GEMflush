@@ -4,19 +4,18 @@
   "name": "Riffraff Bookstore & Bar",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "ST",
-    "postalCode": "12345",
-    "addressCountry": "US"
+    "streetAddress": "Suite 107A",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02909"
   },
-  "telephone": "+1234567890",
-  "email": "info@riffraffbookstorebar.com",
-  "url": "https://www.riffraffbookstorebar.com",
-  "openingHours": "Mo-Sa 10:00-22:00",
-  "priceRange": "$$",
-  "servesCuisine": "Books, Drinks",
-  "hasMenu": "https://www.riffraffbookstorebar.com/menu",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "currenciesAccepted": "USD"
+  "telephone": "60",
+  "url": "",
+  "description": "",
+  "image": "",
+  "openingHours": "",
+  "closes": "",
+  "servesCuisine": "",
+  "priceRange": "",
+  "paymentAccepted": ""
 }
