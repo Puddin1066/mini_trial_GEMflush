@@ -4,18 +4,18 @@
   "name": "Riffraff Bookstore & Bar",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Suite 107A",
+    "streetAddress": "60 Valley St Suite 107A",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02909"
+    "postalCode": "02909",
+    "addressCountry": "US"
   },
-  "telephone": "60",
-  "url": "",
-  "description": "",
-  "image": "",
-  "openingHours": "",
-  "closes": "",
-  "servesCuisine": "",
-  "priceRange": "",
-  "paymentAccepted": ""
+  "telephone": "(401) 421-4371",
+  "url": "https://riffraffpvd.com/",
+  "description": "Independent bookstore combined with a café and bar, hosting events and readings.",
+  "openingHours": "Mo-Sa 10:00-22:00",
+  "hasMap": "https://g.page/riffraffpvd",
+  "servesCuisine": "Café, Bar",
+  "paymentAccepted": "Cash, Credit Card",
+  "image": "https://riffraffpvd.com/wp-content/uploads/2019/03/IMG_6599-2.jpg"
 }
