@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Black Leaf Tea & Culture Shop",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "71 Broadway",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02903",
+    "addressCountry": "US"
+  },
+  "telephone": "(401) 441-5466",
+  "url": "https://www.blackleaftea.com/",
+  "description": "Tea shop offering a variety of loose-leaf teas and cultural products.",
+  "openingHours": "Mo-Su 09:00-18:00",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "currenciesAccepted": "USD",
+  "image": "https://www.blackleaftea.com/images/logo.png",
+  "servesCuisine": "Tea",
+  "hasPOS": {
+    "@type": "Place",
+    "name": "Black Leaf Tea & Culture Shop",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "71 Broadway",
+      "addressLocality": "Providence",
+      "addressRegion": "RI",
+      "postalCode": "02903",
+      "addressCountry": "US"
+    },
+    "telephone": "(401) 441-5466",
+    "url": "https://www.blackleaftea.com/",
+    "paymentAccepted": ["Cash", "Credit Card"],
+    "currenciesAccepted": "USD"
+  },
+  "potentialAction": {
+    "@type": "BuyAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.blackleaftea.com/",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    },
+    "result": {
+      "@type": "OrderAction",
+      "name": "Order Online"
+    }
+  }
+}
