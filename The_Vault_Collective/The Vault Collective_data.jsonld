@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Vault Collective",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "Stateville",
+    "postalCode": "235",
+    "addressCountry": "USA"
+  },
+  "telephone": "123-456-7890",
+  "email": "info@thevaultcollective.com",
+  "url": "https://www.thevaultcollective.com",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+  "description": "The Vault Collective is a local business offering a curated collection of vintage and handmade goods.",
+  "image": "https://www.thevaultcollective.com/images/logo.jpg",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Vintage Clothing",
+          "description": "Curated selection of vintage clothing and accessories."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Handmade Jewelry",
+          "description": "Unique handmade jewelry pieces."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Artisanal Home Decor",
+          "description": "Handcrafted home decor items."
+        }
+      }
+    ]
+  }
+}
