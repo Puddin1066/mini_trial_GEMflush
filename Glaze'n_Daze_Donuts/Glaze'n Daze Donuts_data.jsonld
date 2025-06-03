@@ -10,11 +10,35 @@
     "postalCode": "02919",
     "addressCountry": "US"
   },
-  "telephone": "(401) 270-5757",
   "url": "https://www.facebook.com/GlazenDazeDonuts/",
-  "sameAs": [
-    "https://www.facebook.com/GlazenDazeDonuts/"
-  ],
+  "telephone": "(401) 270-5757",
   "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
-  "keywords": "gourmet donuts, Johnston bakery, unique pastries"
+  "image": "https://www.facebook.com/GlazenDazeDonuts/",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.facebook.com/GlazenDazeDonuts/",
+      "inLanguage": "en-US"
+    },
+    "result": {
+      "@type": "Restaurant",
+      "name": "Glaze'n Daze Donuts"
+    }
+  },
+  "openingHours": "Mo-Su 07:00-18:00",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.0,
+    "longitude": -71.5
+  },
+  "hasMap": "https://goo.gl/maps/39",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 270-5757",
+    "contactType": "customer service"
+  },
+  "servesCuisine": "Donuts",
+  "serviceArea": "Johnston, RI",
+  "keywords": ["gourmet donuts", "Johnston bakery", "unique pastries"]
 }
