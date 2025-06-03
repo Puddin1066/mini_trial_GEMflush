@@ -13,16 +13,36 @@
   "url": "https://www.jmarcel.com/",
   "telephone": "(401) 383-9777",
   "description": "Women's boutique featuring fashion-forward clothing and accessories.",
-  "image": "https://www.jmarcel.com/images/logo.png",
-  "openingHours": [
-    "Mo-Sa 10:00-18:00"
-  ],
-  "sameAs": "https://www.jmarcel.com/",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "(401) 383-9777",
     "contactType": "customer service"
   },
-  "currenciesAccepted": "USD",
-  "paymentAccepted": "Cash, Credit Card"
+  "openingHours": "Mo-Sa 10:00-18:00",
+  "image": "https://www.jmarcel.com/images/logo.png",
+  "servesCuisine": "Women's fashion",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Stylish apparel",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Women's clothing",
+          "description": "Fashion-forward clothing for women",
+          "image": "https://www.jmarcel.com/images/clothing.jpg"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Accessories",
+          "description": "Fashionable accessories for women",
+          "image": "https://www.jmarcel.com/images/accessories.jpg"
+        }
+      }
+    ]
+  }
 }
