@@ -1,0 +1,36 @@
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "J Marcel",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "808",
+    "addressRegion": "US",
+    "postalCode": "12345"
+  },
+  "telephone": "+1234567890",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "description": "J Marcel is a local business offering a variety of services in 808.",
+  "image": "https://example.com/logo.jpg",
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Cash, Credit Card",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
+  },
+  "servesCuisine": "Various",
+  "menu": "https://example.com/menu",
+  "slogan": "Your go-to destination in 808",
+  "hasMap": "https://example.com/map",
+  "url": "https://example.com/jmarcel",
+  "sameAs": [
+    "https://www.facebook.com/jmarcel",
+    "https://www.instagram.com/jmarcel",
+    "https://twitter.com/jmarcel"
+  ]
+}
+```
