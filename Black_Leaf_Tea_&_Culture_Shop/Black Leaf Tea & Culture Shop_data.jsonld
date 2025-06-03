@@ -13,8 +13,10 @@
   "telephone": "(401) 441-5466",
   "url": "https://www.blackleaftea.com/",
   "description": "Tea shop offering a variety of loose-leaf teas and cultural products.",
-  "openingHours": "Mo-Sa 09:00-18:00",
-  "image": "https://www.blackleaftea.com/images/logo.jpg",
+  "openingHours": "Mo-Sa 10:00-18:00",
+  "image": "https://www.blackleaftea.com/images/logo.png",
+  "paymentAccepted": "Cash, Credit Card",
+  "priceRange": "$$",
   "servesCuisine": "Tea, Cultural Products",
-  "paymentAccepted": ["Cash", "Credit Card"]
+  "keywords": ["loose-leaf tea", "cultural shop", "herbal blends"]
 }
