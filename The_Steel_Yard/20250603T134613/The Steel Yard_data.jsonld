@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Steel Yard",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27 Sims Ave",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02909",
+    "addressCountry": "US"
+  },
+  "telephone": "(401) 273-7101",
+  "url": "https://www.thesteelyard.org/",
+  "description": "Industrial arts center offering classes, studio space, and public art installations.",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "image": "https://www.thesteelyard.org/images/the_steel_yard_logo.jpg",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.820611,
+    "longitude": -71.439222
+  },
+  "sameAs": [
+    "https://www.facebook.com/thesteelyard/",
+    "https://www.instagram.com/thesteelyard/"
+  ],
+  "hasMap": "https://g.page/thesteelyard"
+}
