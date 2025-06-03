@@ -5,25 +5,56 @@
   "name": "Frog & Toad",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "795 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "State",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "795",
+    "addressRegion": "Anytown",
     "postalCode": "79500",
-    "addressCountry": "Country"
+    "addressCountry": "US"
   },
-  "telephone": "+1234567890",
-  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+  "telephone": "+1-234-567-8901",
+  "openingHours": [
+    "Mo-Fr 09:00-17:00",
+    "Sa 10:00-14:00"
+  ],
+  "description": "Frog & Toad is a local business offering a variety of products and services.",
+  "image": "https://www.example.com/images/frog_and_toad.jpg",
   "url": "https://www.frogandtoad795.com",
-  "description": "Frog & Toad is a local business offering a variety of products for nature enthusiasts.",
-  "image": "https://www.frogandtoad795.com/images/logo.jpg",
+  "hasMap": "https://www.google.com/maps/place/Frog+%26+Toad+795",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.1234,
+    "longitude": -122.4567
+  },
   "priceRange": "$$",
-  "paymentAccepted": "Cash, Credit Card",
-  "servesCuisine": "Nature-inspired products",
-  "hasMap": "https://maps.google.com/maps?q=795+Main+Street+Cityville",
-  "sameAs": [
-    "https://www.facebook.com/frogandtoad795",
-    "https://www.instagram.com/frogandtoad795",
-    "https://twitter.com/frogandtoad795"
-  ]
+  "servesCuisine": "American",
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card"
+  ],
+  "menu": "https://www.frogandtoad795.com/menu",
+  "serviceArea": {
+    "@type": "GeoShape",
+    "polygon": "37.1234,-122.4567 37.2345,-122.5678 37.3456,-122.6789 37.4567,-122.7890"
+  },
+  "serviceType": "Retail",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday-Friday",
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00",
+      "closes": "14:00"
+    }
+  ],
+  "slogan": "Your one-stop shop for all things Frog & Toad related!",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frog & Toad"
+  }
 }
 ```
