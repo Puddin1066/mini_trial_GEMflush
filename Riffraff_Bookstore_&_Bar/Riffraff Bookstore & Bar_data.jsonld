@@ -13,9 +13,25 @@
   "telephone": "(401) 421-4371",
   "url": "https://riffraffpvd.com/",
   "description": "Independent bookstore combined with a café and bar, hosting events and readings.",
-  "openingHours": "Mo-Sa 10:00-22:00",
-  "hasMap": "https://g.page/riffraffpvd",
-  "servesCuisine": "Café, Bar",
-  "paymentAccepted": "Cash, Credit Card",
-  "image": "https://riffraffpvd.com/wp-content/uploads/2019/03/IMG_6599-2.jpg"
+  "openingHours": "Mo-Su 08:00-22:00",
+  "image": "https://riffraffpvd.com/images/logo.png",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://riffraffpvd.com/reserve",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    }
+  },
+  "hasMap": "https://goo.gl/maps/C4MgqX2AnZLRPcQv8",
+  "sameAs": [
+    "https://www.facebook.com/riffraffpvd",
+    "https://www.instagram.com/riffraffpvd",
+    "https://twitter.com/riffraffpvd"
+  ]
 }
