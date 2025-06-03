@@ -1,27 +1,31 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "The Vault Collective",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "235 Main Street",
-    "addressLocality": "Anytown",
-    "addressRegion": "NY",
-    "postalCode": "10001",
-    "addressCountry": "US"
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "Stateville",
+    "postalCode": "235",
+    "addressCountry": "USA"
   },
   "telephone": "123-456-7890",
-  "url": "http://www.thevaultcollective.com",
-  "openingHours": "Mo-Sa 09:00-17:00",
-  "description": "The Vault Collective is a local business offering a curated selection of vintage and modern clothing and accessories.",
-  "image": "http://www.example.com/image.jpg",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.7128",
-    "longitude": "74.0060"
-  },
-  "servesCuisine": "Vintage and Modern Clothing",
+  "url": "https://www.thevaultcollective.com",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "description": "The Vault Collective is a boutique offering a curated selection of vintage and sustainable fashion.",
+  "image": "https://www.thevaultcollective.com/images/logo.png",
   "priceRange": "$$",
-  "paymentAccepted": "Cash, Credit Card",
-  "hasMap": "https://www.google.com/maps/place/235+Main+Street+Anytown+NY"
+  "servesCuisine": "Sustainable Fashion",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "hasMap": "https://goo.gl/maps/123456789",
+  "serviceArea": {
+    "@type": "GeoShape",
+    "circle": "37.7749,-122.4194 10000"
+  },
+  "sameAs": [
+    "https://www.facebook.com/thevaultcollective",
+    "https://www.instagram.com/thevaultcollective",
+    "https://twitter.com/thevaultcollective"
+  ]
 }
