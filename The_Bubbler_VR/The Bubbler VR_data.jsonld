@@ -1,44 +1,17 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "The Bubbler VR",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "Stateville",
-    "postalCode": "568",
-    "addressCountry": "USA"
+    "streetAddress": "568",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02904"
   },
-  "telephone": "123-456-7890",
-  "url": "https://www.thebubblervr.com",
-  "description": "The Bubbler VR offers virtual reality gaming experiences for all ages.",
-  "openingHours": "Mo-Su 10:00-20:00",
-  "image": "https://www.thebubblervr.com/images/logo.jpg",
-  "priceRange": "$$",
-  "servesCuisine": "Virtual Reality Gaming",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Virtual Reality Gaming Experiences",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Single Player VR",
-          "description": "Enjoy immersive single player virtual reality games.",
-          "price": "25.00"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Multiplayer VR",
-          "description": "Play with friends and family in exciting multiplayer virtual reality games.",
-          "price": "40.00"
-        }
-      }
-    ]
-  }
+  "telephone": "Contact: RI 02904",
+  "url": "Website: ",
+  "description": "Virtual reality arcade providing immersive gaming experiences.",
+  "additionalType": "Virtual reality arcade",
+  "serviceType": "Immersive gaming experiences"
 }
