@@ -4,18 +4,40 @@
   "name": "The Vault Collective",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "235",
+    "streetAddress": "235 Westminster St",
     "addressLocality": "Providence",
     "addressRegion": "RI",
     "postalCode": "02903",
     "addressCountry": "US"
   },
-  "telephone": "Contact: ",
-  "url": "Website: ",
+  "telephone": "(401) 250-2587",
+  "url": "https://www.thevaultcollective.com/",
   "description": "Vintage and consignment boutique offering curated fashion pieces.",
-  "openingHours": "Mo-Sa 10:00-18:00",
-  "image": "", // Add URL to image if available
-  "priceRange": "$$", // Add price range if available
-  "servesCuisine": "Clothing",
-  "paymentAccepted": ["Cash", "Credit Card"]
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Vintage and Consignment Apparel",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Vintage Clothing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Consignment Shop"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Retro Apparel"
+        }
+      }
+    ]
+  }
 }
