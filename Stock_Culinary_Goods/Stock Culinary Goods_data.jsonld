@@ -1,0 +1,30 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Stock Culinary Goods",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "756 Main Street",
+    "addressLocality": "Anytown",
+    "addressRegion": "CA",
+    "postalCode": "756",
+    "addressCountry": "US"
+  },
+  "telephone": "123-456-7890",
+  "url": "https://www.stockculinarygoods.com",
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "description": "Stock Culinary Goods is a specialty kitchenware store offering a wide range of high-quality culinary products.",
+  "hasMap": "https://www.google.com/maps/place/756+Main+Street+Anytown+CA+756",
+  "image": "https://www.stockculinarygoods.com/images/logo.jpg",
+  "priceRange": "$$",
+  "servesCuisine": "Kitchenware",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "currenciesAccepted": "USD",
+  "menu": "https://www.stockculinarygoods.com/menu",
+  "acceptsReservations": "No",
+  "slogan": "Where culinary dreams come true",
+  "email": "info@stockculinarygoods.com",
+  "founder": "John Smith",
+  "foundingDate": "2010-05-15",
+  "areaServed": ["Anytown", "Surrounding Areas"]
+}
