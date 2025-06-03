@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "J Marcel",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "808 Hope St",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02906",
+    "addressCountry": "US"
+  },
+  "telephone": "(401) 383-9777",
+  "url": "https://www.jmarcel.com/",
+  "description": "Women's boutique featuring fashion-forward clothing and accessories.",
+  "image": "https://www.jmarcel.com/logo.jpg",
+  "openingHours": "Mo-Fr 10:00-18:00",
+  "sameAs": [
+    "https://www.facebook.com/jmarcelprovidence",
+    "https://www.instagram.com/jmarcelprovidence"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Products and Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": "Women's fashion clothing",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": "Stylish accessories",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+}
