@@ -1,22 +1,22 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Riffraff Bookstore & Bar",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "60 Valley St",
-    "addressLocality": "Providence",
-    "addressRegion": "RI",
-    "postalCode": "02909",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "ST",
+    "postalCode": "12345",
     "addressCountry": "US"
   },
-  "telephone": "+1-401-421-4371",
-  "url": "http://www.riffraffpvd.com/",
-  "image": "http://www.riffraffpvd.com/images/logo.png",
-  "description": "Riffraff Bookstore & Bar is a unique bookstore and bar offering a curated selection of books along with craft cocktails and coffee.",
-  "openingHours": "Mo-Sa 10:00-21:00",
+  "telephone": "+1234567890",
+  "email": "info@riffraffbookstorebar.com",
+  "url": "https://www.riffraffbookstorebar.com",
+  "openingHours": "Mo-Sa 10:00-22:00",
   "priceRange": "$$",
-  "servesCuisine": "Books, Cocktails, Coffee",
+  "servesCuisine": "Books, Drinks",
+  "hasMenu": "https://www.riffraffbookstorebar.com/menu",
   "paymentAccepted": ["Cash", "Credit Card"],
-  "menu": "http://www.riffraffpvd.com/menu"
+  "currenciesAccepted": "USD"
 }
