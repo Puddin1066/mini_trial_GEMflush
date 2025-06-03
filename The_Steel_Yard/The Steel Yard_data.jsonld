@@ -13,24 +13,30 @@
   "telephone": "(401) 273-7101",
   "url": "https://www.thesteelyard.org/",
   "description": "Industrial arts center offering classes, studio space, and public art installations.",
-  "openingHours": "Mo-Fr 09:00-17:00",
   "image": "https://www.thesteelyard.org/images/logo.png",
-  "sameAs": "https://www.thesteelyard.org/",
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "target": "https://www.thesteelyard.org/reserve"
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 273-7101",
+    "contactType": "customer service"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services Offered",
+    "name": "Services",
     "itemListElement": [
       {
         "@type": "Offer",
-        "itemOffered": "Metalworking Classes"
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Metalworking Classes"
+        }
       },
       {
         "@type": "Offer",
-        "itemOffered": "Community Workshops"
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Community Workshops"
+        }
       }
     ]
   }
