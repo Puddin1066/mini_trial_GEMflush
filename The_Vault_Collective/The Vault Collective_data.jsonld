@@ -4,26 +4,12 @@
   "name": "The Vault Collective",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "235",
-    "postalCode": "12345",
-    "addressCountry": "USA"
+    "streetAddress": "235",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02903"
   },
-  "telephone": "123-456-7890",
-  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
-  "image": "https://example.com/logo.png",
-  "description": "The Vault Collective is a local business in Cityville offering a variety of services.",
-  "url": "https://www.example.com/",
-  "priceRange": "$$",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.7128",
-    "longitude": "74.0060"
-  },
-  "hasMap": "https://www.example.com/loc/map",
-  "servesCuisine": "American",
-  "serviceArea": "Cityville and surrounding areas",
-  "serviceType": "Retail",
-  "paymentAccepted": "Cash, Credit Card"
+  "telephone": "Contact: RI 02903",
+  "url": "",
+  "description": "Vintage and consignment boutique offering curated fashion pieces."
 }
