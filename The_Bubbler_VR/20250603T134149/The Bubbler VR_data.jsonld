@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Bubbler VR",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "568 Charles St",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02904"
+  },
+  "telephone": "(401) 372-7248",
+  "url": "https://thebubblervr.com/",
+  "description": "Virtual reality arcade providing immersive gaming experiences.",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": "https://thebubblervr.com/"
+  },
+  "openingHours": "Mo-Fr 12:00-20:00",
+  "image": "https://example.com/photos/1x1/photo.jpg",
+  "keywords": ["virtual reality", "VR gaming", "Providence arcade"]
+}
