@@ -6,19 +6,53 @@
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "Cityville",
-    "addressRegion": "ST",
+    "addressRegion": "Stateville",
     "postalCode": "220",
-    "addressCountry": "US"
+    "addressCountry": "Countryland"
   },
-  "telephone": "123-456-7890",
-  "email": "info@modernlove.com",
-  "url": "https://www.modernlove.com",
-  "openingHours": [
-    "Mo-Sa 09:00-17:00"
-  ],
-  "description": "Modern Love is a boutique offering a curated selection of modern furniture and decor.",
-  "image": "https://www.modernlove.com/logo.jpg",
+  "telephone": "+1234567890",
+  "openingHours": "Mo-Sa 09:00-18:00",
+  "description": "Modern Love is a trendy local business offering a variety of services to meet all your needs.",
+  "url": "https://www.modernlovebusiness.com",
+  "image": "https://www.modernlovebusiness.com/logo.jpg",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
+  },
   "priceRange": "$$",
-  "servesCuisine": "Modern Furniture and Decor",
-  "paymentAccepted": "Cash, Credit Card"
+  "servesCuisine": "Modern",
+  "hasMap": "https://www.google.com/maps/place/123+Main+Street+Cityville",
+  "paymentAccepted": "Cash, Credit Card",
+  "sameAs": [
+    "https://www.facebook.com/modernlovebusiness",
+    "https://www.instagram.com/modernlovebusiness"
+  ],
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.7128",
+      "longitude": "74.0060"
+    },
+    "geoRadius": "50 miles"
+  },
+  "serviceArea": {
+    "@type": "GeoShape",
+    "box": "40.6895,-74.0444 40.7128,-74.0060"
+  },
+  "serviceType": [
+    {
+      "@type": "Service",
+      "name": "Haircut and Styling"
+    },
+    {
+      "@type": "Service",
+      "name": "Manicure and Pedicure"
+    },
+    {
+      "@type": "Service",
+      "name": "Facial Treatments"
+    }
+  ]
 }
