@@ -13,16 +13,18 @@
   "telephone": "(401) 250-2587",
   "url": "https://www.thevaultcollective.com/",
   "description": "Vintage and consignment boutique offering curated fashion pieces.",
-  "openingHours": "Mo-Sa 10:00-18:00",
+  "openingHours": "Mo-Sa 11:00-18:00",
   "image": "https://www.thevaultcollective.com/images/logo.png",
-  "currenciesAccepted": "USD",
-  "paymentAccepted": "Cash, Credit Card",
   "priceRange": "$$",
-  "servesCuisine": "Vintage Clothing, Retro Apparel",
-  "hasMap": "https://goo.gl/maps/ABC123",
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 41.820792,
-    "longitude": -71.415244
-  }
+    "latitude": 41.822638,
+    "longitude": -71.413455
+  },
+  "hasMap": "https://g.page/The-Vault-Collective",
+  "sameAs": [
+    "https://www.facebook.com/thevaultcollective",
+    "https://www.instagram.com/thevaultcollective"
+  ],
+  "servesCuisine": "Vintage Clothing, Consignment Shop, Retro Apparel"
 }
