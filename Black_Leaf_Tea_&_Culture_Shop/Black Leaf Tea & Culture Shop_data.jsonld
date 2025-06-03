@@ -1,27 +1,17 @@
+```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Black Leaf Tea & Culture Shop",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "CA",
-    "postalCode": "12345",
-    "addressCountry": "US"
+    "streetAddress": "71",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02903"
   },
-  "telephone": "+1234567890",
-  "url": "https://www.blackleaftcshop.com",
-  "image": "https://www.blackleaftcshop.com/images/logo.jpg",
-  "openingHours": "Mo-Sa 09:00-18:00",
-  "description": "Black Leaf Tea & Culture Shop offers a wide variety of premium teas and cultural products in a cozy and welcoming atmosphere.",
-  "servesCuisine": "Tea, Cultural Products",
-  "priceRange": "$$",
-  "paymentAccepted": "Cash, Credit Card",
-  "hasMap": "https://www.google.com/maps/place/Black+Leaf+Tea+%26+Culture+Shop",
-  "sameAs": [
-    "https://www.facebook.com/blackleaftcshop",
-    "https://www.instagram.com/blackleaftcshop",
-    "https://twitter.com/blackleaftcshop"
-  ]
+  "telephone": "Contact: RI 02903",
+  "url": "",
+  "description": "Tea shop offering a variety of loose-leaf teas and cultural products."
 }
+```
