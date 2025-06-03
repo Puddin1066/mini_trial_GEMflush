@@ -4,25 +4,24 @@
   "name": "Black Leaf Tea & Culture Shop",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "71 Main Street",
-    "addressLocality": "Anytown",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
     "addressRegion": "CA",
     "postalCode": "12345",
     "addressCountry": "US"
   },
-  "telephone": "123-456-7890",
-  "email": "info@blackleaftea.com",
-  "url": "https://www.blackleaftea.com",
-  "image": "https://www.blackleaftea.com/logo.jpg",
-  "description": "Black Leaf Tea & Culture Shop offers a wide selection of premium teas and cultural items.",
+  "telephone": "+1234567890",
+  "url": "https://www.blackleaftcshop.com",
+  "image": "https://www.blackleaftcshop.com/images/logo.jpg",
   "openingHours": "Mo-Sa 09:00-18:00",
+  "description": "Black Leaf Tea & Culture Shop offers a wide variety of premium teas and cultural products in a cozy and welcoming atmosphere.",
+  "servesCuisine": "Tea, Cultural Products",
   "priceRange": "$$",
-  "servesCuisine": "Tea",
   "paymentAccepted": "Cash, Credit Card",
-  "hasMap": "https://goo.gl/maps/abcdef123456",
+  "hasMap": "https://www.google.com/maps/place/Black+Leaf+Tea+%26+Culture+Shop",
   "sameAs": [
-    "https://www.facebook.com/blackleaftea",
-    "https://www.instagram.com/blackleaftea",
-    "https://twitter.com/blackleaftea"
+    "https://www.facebook.com/blackleaftcshop",
+    "https://www.instagram.com/blackleaftcshop",
+    "https://twitter.com/blackleaftcshop"
   ]
 }
