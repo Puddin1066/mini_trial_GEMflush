@@ -1,30 +1,40 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Stock Culinary Goods",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "756 Main Street",
     "addressLocality": "Anytown",
-    "addressRegion": "CA",
-    "postalCode": "756",
+    "addressRegion": "NY",
+    "postalCode": "12345",
     "addressCountry": "US"
   },
   "telephone": "123-456-7890",
   "url": "https://www.stockculinarygoods.com",
-  "openingHours": "Mo-Fr 09:00-18:00",
-  "description": "Stock Culinary Goods is a specialty kitchenware store offering a wide range of high-quality culinary products.",
-  "hasMap": "https://www.google.com/maps/place/756+Main+Street+Anytown+CA+756",
-  "image": "https://www.stockculinarygoods.com/images/logo.jpg",
+  "image": "https://www.stockculinarygoods.com/logo.jpg",
+  "description": "Stock Culinary Goods is a local business offering a wide range of high-quality culinary tools and equipment.",
+  "openingHours": "Mo-Sa 10:00-18:00",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.1234",
+    "longitude": "-74.5678"
+  },
+  "hasMap": "https://goo.gl/maps/abc123",
   "priceRange": "$$",
-  "servesCuisine": "Kitchenware",
   "paymentAccepted": ["Cash", "Credit Card"],
-  "currenciesAccepted": "USD",
-  "menu": "https://www.stockculinarygoods.com/menu",
-  "acceptsReservations": "No",
-  "slogan": "Where culinary dreams come true",
-  "email": "info@stockculinarygoods.com",
-  "founder": "John Smith",
-  "foundingDate": "2010-05-15",
-  "areaServed": ["Anytown", "Surrounding Areas"]
+  "servesCuisine": "Kitchenware",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.stockculinarygoods.com/reservations",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    }
+  }
 }
