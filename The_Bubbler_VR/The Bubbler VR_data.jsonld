@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Bubbler VR",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "Stateville",
+    "postalCode": "568",
+    "addressCountry": "US"
+  },
+  "telephone": "123-456-7890",
+  "url": "https://www.thebubblervr.com",
+  "image": "https://www.thebubblervr.com/images/logo.jpg",
+  "description": "The Bubbler VR offers virtual reality experiences for all ages.",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "priceRange": "$$",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
+  },
+  "hasMap": "https://www.google.com/maps/place/The+Bubbler+VR",
+  "servesCuisine": "Virtual Reality Entertainment",
+  "additionalType": "https://www.wikidata.org/wiki/Q107609",
+  "paymentAccepted": "Cash, Credit Card",
+  "currenciesAccepted": "USD",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Monday-Friday",
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.thebubblervr.com/reserve",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Book a VR Experience"
+    }
+  }
+}
