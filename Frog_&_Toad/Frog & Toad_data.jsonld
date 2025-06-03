@@ -7,33 +7,20 @@
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "795",
-    "addressRegion": "Region",
-    "postalCode": "795",
+    "addressRegion": "State",
+    "postalCode": "795XX",
     "addressCountry": "Country"
   },
-  "telephone": "123-456-7890",
-  "openingHours": "Mo-Fr 09:00-17:00",
-  "image": "https://example.com/logo.png",
-  "url": "https://www.frogandtoad795.com",
-  "description": "Frog & Toad is a local business in 795 specializing in providing high-quality products and services.",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "37.1234",
-    "longitude": "-122.1234"
-  },
-  "hasMap": "https://www.google.com/maps/place/123+Main+Street+795",
+  "telephone": "+123456789",
+  "email": "info@frogandtoad.com",
+  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+  "description": "Frog & Toad is a local business specializing in unique gifts and home decor.",
+  "image": "https://example.com/images/frogandtoad.jpg",
   "priceRange": "$$",
-  "servesCuisine": "Cuisine Type",
+  "url": "https://www.frogandtoad.com",
   "paymentAccepted": "Cash, Credit Card",
-  "email": "info@frogandtoad795.com",
-  "sameAs": [
-    "https://www.facebook.com/frogandtoad795",
-    "https://www.instagram.com/frogandtoad795"
-  ],
-  "serviceType": "Service Type",
-  "serviceArea": {
-    "@type": "GeoShape",
-    "circle": "37.1234,-122.1234 5000"
-  }
+  "currenciesAccepted": "USD",
+  "hasMap": "https://maps.google.com/maps?q=123+Main+Street,795",
+  "servesCuisine": "Gifts, Home Decor"
 }
 ```
