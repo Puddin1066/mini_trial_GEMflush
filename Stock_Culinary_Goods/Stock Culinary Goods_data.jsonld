@@ -4,59 +4,12 @@
   "name": "Stock Culinary Goods",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "756 Main Street",
-    "addressLocality": "Anytown",
-    "addressRegion": "CA",
-    "postalCode": "90001",
-    "addressCountry": "US"
+    "streetAddress": "756",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02906"
   },
-  "telephone": "+1-123-456-7890",
-  "openingHours": "Mo-Fr 09:00-18:00",
-  "description": "Stock Culinary Goods offers a wide variety of kitchen tools and gadgets for cooking enthusiasts.",
-  "image": "https://example.com/image.jpg",
-  "url": "https://www.stockculinarygoods.com",
-  "priceRange": "$$",
-  "servesCuisine": "Kitchenware",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Kitchenware Catalog",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Chef's Knife",
-          "description": "High-quality chef's knife for precision cutting",
-          "image": "https://example.com/chefsknife.jpg",
-          "brand": "Stock Culinary Goods",
-          "sku": "SCG1001",
-          "offers": {
-            "@type": "Offer",
-            "price": "49.99",
-            "priceCurrency": "USD",
-            "availability": "InStock",
-            "url": "https://www.stockculinarygoods.com/chefsknife"
-          }
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Cast Iron Skillet",
-          "description": "Versatile cast iron skillet for searing and baking",
-          "image": "https://example.com/castironskillet.jpg",
-          "brand": "Stock Culinary Goods",
-          "sku": "SCG1002",
-          "offers": {
-            "@type": "Offer",
-            "price": "39.99",
-            "priceCurrency": "USD",
-            "availability": "InStock",
-            "url": "https://www.stockculinarygoods.com/castironskillet"
-          }
-        }
-      }
-    ]
-  }
+  "telephone": "Contact: RI 02906",
+  "url": "Website: ",
+  "description": "Kitchenware store specializing in quality tools and local food products."
 }
