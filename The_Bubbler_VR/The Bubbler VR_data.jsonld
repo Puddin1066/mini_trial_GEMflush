@@ -1,52 +1,44 @@
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "LocalBusiness",
   "name": "The Bubbler VR",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "Cityville",
-    "addressRegion": "ST",
+    "addressRegion": "Stateville",
     "postalCode": "568",
-    "addressCountry": "US"
+    "addressCountry": "USA"
   },
   "telephone": "123-456-7890",
-  "openingHours": "Mo, Tu, We, Th, Fr 10:00-20:00",
-  "description": "The Bubbler VR offers immersive virtual reality experiences for all ages.",
-  "image": "https://example.com/logo.jpg",
   "url": "https://www.thebubblervr.com",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.7128",
-    "longitude": "-74.0060"
-  },
+  "description": "The Bubbler VR offers virtual reality gaming experiences for all ages.",
+  "openingHours": "Mo-Su 10:00-20:00",
+  "image": "https://www.thebubblervr.com/images/logo.jpg",
   "priceRange": "$$",
-  "servesCuisine": "Virtual Reality Entertainment",
-  "paymentAccepted": "Cash, Credit Card",
-  "hasMap": "https://www.google.com/maps/place/123+Main+Street+Cityville+ST+568",
-  "sameAs": [
-    "https://www.facebook.com/thebubblervr",
-    "https://www.instagram.com/thebubblervr"
-  ],
-  "areaServed": {
-    "@type": "GeoShape",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Cityville, ST 568",
-      "addressCountry": "US"
-    }
-  },
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://www.thebubblervr.com/book",
-      "inLanguage": "en-US",
-      "actionPlatform": [
-        "http://schema.org/DesktopWebPlatform",
-        "http://schema.org/IOSPlatform",
-        "http://schema.org/AndroidPlatform"
-      ]
-    }
+  "servesCuisine": "Virtual Reality Gaming",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Virtual Reality Gaming Experiences",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Single Player VR",
+          "description": "Enjoy immersive single player virtual reality games.",
+          "price": "25.00"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multiplayer VR",
+          "description": "Play with friends and family in exciting multiplayer virtual reality games.",
+          "price": "40.00"
+        }
+      }
+    ]
   }
 }
