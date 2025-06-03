@@ -1,6 +1,6 @@
 {
-  "@context": "https://schema.org",
-  "@type": "Store",
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
   "name": "Frog & Toad",
   "address": {
     "@type": "PostalAddress",
@@ -13,12 +13,7 @@
   "telephone": "(401) 831-3434",
   "url": "https://www.frogandtoadstore.com/",
   "description": "Eclectic gift shop featuring locally made goods and quirky items.",
-  "image": "https://www.frogandtoadstore.com/logo.jpg",
   "openingHours": "Mo-Sa 10:00-18:00",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "servesCuisine": "Gift Shop",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "priceRange": "$$",
-  "sameAs": "https://www.frogandtoadstore.com/",
-  "keywords": ["unique gifts", "local artisans", "Providence gift shop"]
+  "image": "https://www.frogandtoadstore.com/images/frogandtoad-logo.png",
+  "keywords": "unique gifts, local artisans, Providence gift shop"
 }
