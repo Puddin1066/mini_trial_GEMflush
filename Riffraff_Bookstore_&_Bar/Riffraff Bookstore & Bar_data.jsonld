@@ -1,5 +1,5 @@
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "LocalBusiness",
   "name": "Riffraff Bookstore & Bar",
   "address": {
@@ -11,17 +11,12 @@
     "addressCountry": "US"
   },
   "telephone": "+1-401-421-4371",
-  "url": "https://www.riffraffpvd.com/",
-  "image": "https://www.example.com/photos/1x1/photo.jpg",
-  "description": "Riffraff Bookstore & Bar is a unique hybrid space in Providence that offers a curated selection of books and a cozy bar for patrons to enjoy.",
-  "openingHours": "Mo-Sa 10:00-22:00",
-  "servesCuisine": "Books and beverages",
-  "paymentAccepted": ["Cash", "Credit Card"],
+  "url": "http://www.riffraffpvd.com/",
+  "image": "http://www.riffraffpvd.com/images/logo.png",
+  "description": "Riffraff Bookstore & Bar is a unique bookstore and bar offering a curated selection of books along with craft cocktails and coffee.",
+  "openingHours": "Mo-Sa 10:00-21:00",
   "priceRange": "$$",
-  "currenciesAccepted": "USD",
-  "hasMap": "https://goo.gl/maps/ABC123XYZ",
-  "sameAs": [
-    "https://www.facebook.com/riffraffpvd",
-    "https://www.instagram.com/riffraffpvd"
-  ]
+  "servesCuisine": "Books, Cocktails, Coffee",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "menu": "http://www.riffraffpvd.com/menu"
 }
