@@ -4,27 +4,42 @@
   "name": "The Steel Yard",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "27",
+    "streetAddress": "27 Sims Ave",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02909"
+    "postalCode": "02909",
+    "addressCountry": "US"
   },
-  "telephone": "Contact: RI 02909",
-  "url": "",
+  "telephone": "(401) 273-7101",
+  "url": "https://www.thesteelyard.org/",
   "description": "Industrial arts center offering classes, studio space, and public art installations.",
-  "openingHours": [
-    "Mo-Fr 09:00-17:00"
-  ],
-  "image": "",
-  "servesCuisine": "",
-  "acceptsReservations": "",
-  "hasMenu": "",
-  "paymentAccepted": "",
-  "priceRange": "",
-  "currenciesAccepted": "",
-  "paymentAccepted": "",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service"
+  "openingHours": "Mo-Sa 09:00-17:00",
+  "image": "https://www.thesteelyard.org/images/logo.jpg",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.thesteelyard.org/reserve"
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Classes and Workshops",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Metalworking Classes"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Community Workshops"
+        }
+      }
+    ]
   }
 }
