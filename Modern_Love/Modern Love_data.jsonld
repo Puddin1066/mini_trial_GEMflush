@@ -10,9 +10,38 @@
     "postalCode": "02903",
     "addressCountry": "US"
   },
-  "telephone": "(401) 421-1471",
   "url": "https://shopqueenofhearts.com/",
+  "telephone": "(401) 421-1471",
   "description": "Boutique offering modern and minimalist home goods and gifts.",
-  "servesCuisine": "Home decor",
-  "additionalType": "Minimalist design, Modern gifts"
+  "image": "https://example.com/photos/1x1/photo.jpg",
+  "openingHours": "Mo-Sa 10:00-18:00",
+  "sameAs": [
+    "https://www.facebook.com/ModernLove",
+    "https://www.instagram.com/ModernLove",
+    "https://twitter.com/ModernLove"
+  ],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://shopqueenofhearts.com/",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    },
+    "expectsAcceptanceOf": {
+      "@type": "Offer",
+      "category": "physical goods"
+    }
+  },
+  "additionalType": ["https://en.wikipedia.org/wiki/Home_decor", "https://en.wikipedia.org/wiki/Minimalism", "https://en.wikipedia.org/wiki/Gift"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 421-1471",
+    "contactType": "customer service",
+    "areaServed": "US"
+  }
 }
