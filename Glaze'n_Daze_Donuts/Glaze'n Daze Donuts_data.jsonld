@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "@type": "Bakery",
+  "@type": "LocalBusiness",
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
@@ -10,9 +10,11 @@
     "postalCode": "02919",
     "addressCountry": "US"
   },
-  "url": "https://www.facebook.com/GlazenDazeDonuts/",
   "telephone": "(401) 270-5757",
+  "url": "https://www.facebook.com/GlazenDazeDonuts/",
+  "sameAs": [
+    "https://www.facebook.com/GlazenDazeDonuts/"
+  ],
   "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
-  "servesCuisine": "Donuts",
   "keywords": "gourmet donuts, Johnston bakery, unique pastries"
 }
