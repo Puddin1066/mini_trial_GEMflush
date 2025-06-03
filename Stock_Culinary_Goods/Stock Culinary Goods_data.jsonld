@@ -7,10 +7,13 @@
     "streetAddress": "756",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02906",
-    "addressCountry": "US"
+    "postalCode": "02906"
   },
   "telephone": "Contact: RI 02906",
-  "url": "",
-  "description": "Kitchenware store specializing in quality tools and local food products."
+  "url": "Website: ",
+  "description": "Kitchenware store specializing in quality tools and local food products.",
+  "servesCuisine": "Local",
+  "hasPOS": {
+    "@type": "RetailStore"
+  }
 }
