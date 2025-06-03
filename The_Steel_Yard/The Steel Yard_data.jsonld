@@ -4,38 +4,27 @@
   "name": "The Steel Yard",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Cityville",
-    "addressRegion": "Stateville",
-    "postalCode": "12345",
-    "addressCountry": "US"
+    "streetAddress": "27",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02909"
   },
-  "telephone": "+1-555-555-5555",
-  "email": "info@thesteelyard.com",
-  "url": "https://www.thesteelyard.com",
-  "image": "https://www.thesteelyard.com/logo.jpg",
-  "description": "The Steel Yard is a local business specializing in steel fabrication and welding services.",
-  "openingHours": "Mo-Fr 08:00-17:00",
-  "priceRange": "$$",
-  "servesCuisine": "Steel Fabrication",
-  "serviceArea": {
-    "@type": "GeoShape",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Cityville",
-      "addressLocality": "Cityville",
-      "addressRegion": "Stateville",
-      "postalCode": "12345",
-      "addressCountry": "US"
-    },
-    "circle": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 37.7749,
-        "longitude": -122.4194
-      },
-      "geoRadius": "50 miles"
-    }
+  "telephone": "Contact: RI 02909",
+  "url": "",
+  "description": "Industrial arts center offering classes, studio space, and public art installations.",
+  "openingHours": [
+    "Mo-Fr 09:00-17:00"
+  ],
+  "image": "",
+  "servesCuisine": "",
+  "acceptsReservations": "",
+  "hasMenu": "",
+  "paymentAccepted": "",
+  "priceRange": "",
+  "currenciesAccepted": "",
+  "paymentAccepted": "",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service"
   }
 }
