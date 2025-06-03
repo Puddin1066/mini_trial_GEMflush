@@ -14,8 +14,13 @@
   "url": "https://www.stockculinarygoods.com/",
   "description": "Kitchenware store specializing in quality tools and local food products.",
   "openingHours": "Mo-Sa 10:00-18:00",
-  "image": "https://www.stockculinarygoods.com/image.jpg",
+  "image": "https://www.stockculinarygoods.com/images/logo.png",
   "priceRange": "$$",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "servesCuisine": "Kitchen supplies, culinary gifts, cooking store"
+  "servesCuisine": "Kitchen supplies",
+  "additionalType": "https://www.stockculinarygoods.com/",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 521-0101",
+    "contactType": "customer service"
+  }
 }
