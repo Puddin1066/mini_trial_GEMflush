@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Stock Culinary Goods",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "756 Hope St",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02906",
+    "addressCountry": "US"
+  },
+  "image": "https://www.stockculinarygoods.com/wp-content/uploads/2016/09/stocklogo.png",
+  "url": "https://www.stockculinarygoods.com/",
+  "telephone": "(401) 521-0101",
+  "description": "Kitchenware store specializing in quality tools and local food products.",
+  "openingHours": "Mo-Sa 10:00-18:00",
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/StockCulinaryGoods",
+    "https://www.instagram.com/stockpvd/"
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.stockculinarygoods.com/book-online/",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Book Online"
+    }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.828770,
+    "longitude": -71.402250
+  },
+  "hasMap": "https://g.page/stockculinarygoods?share",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 521-0101",
+    "contactType": "customer service"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Providence, RI"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "Stock Culinary Goods"
+  },
+  "servesCuisine": "Kitchen supplies, local food products",
+  "additionalType": ["kitchen supplies", "culinary gifts", "cooking store"]
+}
