@@ -6,26 +6,24 @@
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "Cityville",
-    "addressRegion": "Stateville",
-    "postalCode": "235",
+    "addressRegion": "235",
+    "postalCode": "12345",
     "addressCountry": "USA"
   },
   "telephone": "123-456-7890",
-  "url": "https://www.thevaultcollective.com",
-  "openingHours": "Mo-Fr 09:00-17:00",
-  "description": "The Vault Collective is a boutique offering a curated selection of vintage and sustainable fashion.",
-  "image": "https://www.thevaultcollective.com/images/logo.png",
+  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+  "image": "https://example.com/logo.png",
+  "description": "The Vault Collective is a local business in Cityville offering a variety of services.",
+  "url": "https://www.example.com/",
   "priceRange": "$$",
-  "servesCuisine": "Sustainable Fashion",
-  "paymentAccepted": ["Cash", "Credit Card"],
-  "hasMap": "https://goo.gl/maps/123456789",
-  "serviceArea": {
-    "@type": "GeoShape",
-    "circle": "37.7749,-122.4194 10000"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
   },
-  "sameAs": [
-    "https://www.facebook.com/thevaultcollective",
-    "https://www.instagram.com/thevaultcollective",
-    "https://twitter.com/thevaultcollective"
-  ]
+  "hasMap": "https://www.example.com/loc/map",
+  "servesCuisine": "American",
+  "serviceArea": "Cityville and surrounding areas",
+  "serviceType": "Retail",
+  "paymentAccepted": "Cash, Credit Card"
 }
