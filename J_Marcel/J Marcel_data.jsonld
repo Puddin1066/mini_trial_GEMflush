@@ -4,12 +4,59 @@
   "name": "J Marcel",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "808",
+    "streetAddress": "808 Hope St",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02906"
+    "postalCode": "02906",
+    "addressCountry": "US"
   },
-  "telephone": "Contact: RI 02906",
-  "url": "Website:",
-  "description": "Women's boutique featuring fashion-forward clothing and accessories."
+  "url": "https://www.jmarcel.com/",
+  "telephone": "(401) 383-9777",
+  "description": "Women's boutique featuring fashion-forward clothing and accessories.",
+  "openingHours": "Mo-Fr 10:00-18:00",
+  "image": "https://www.jmarcel.com/images/logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/jmarcelboutique",
+    "https://www.instagram.com/jmarcelboutique"
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.jmarcel.com/book-appointment",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Book Appointment"
+    }
+  },
+  "servesCuisine": "Women's fashion",
+  "additionalType": "https://www.jmarcel.com/services",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Products Catalog",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Stylish Apparel",
+          "description": "Fashion-forward clothing and accessories",
+          "sku": "JMAR001",
+          "url": "https://www.jmarcel.com/products/stylish-apparel"
+        },
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "priceCurrency": "USD",
+          "price": "50.00"
+        }
+      }
+    ]
+  }
 }
