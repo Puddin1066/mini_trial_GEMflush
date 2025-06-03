@@ -13,17 +13,17 @@
   "telephone": "(401) 372-7248",
   "url": "https://thebubblervr.com/",
   "description": "Virtual reality arcade providing immersive gaming experiences.",
-  "openingHours": "Mo-Su 12:00-22:00",
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 41.832294,
-    "longitude": -71.410069
-  },
-  "image": "https://thebubblervr.com/images/logo.png",
-  "sameAs": [
-    "https://www.facebook.com/thebubblervr",
-    "https://twitter.com/thebubblervr",
-    "https://www.instagram.com/thebubblervr"
-  ],
-  "hasMap": "https://g.page/thebubblervr"
+  "openingHours": "Mo-Su 11:00-21:00",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Cash, Credit Card",
+  "priceRange": "$$",
+  "image": "https://thebubblervr.com/image.jpg",
+  "hasMap": "https://g.page/thebubblervr",
+  "servesCuisine": "Virtual Reality Gaming",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(401) 372-7248",
+    "contactType": "customer service"
+  }
 }
