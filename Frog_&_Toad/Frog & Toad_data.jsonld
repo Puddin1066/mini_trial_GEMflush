@@ -1,3 +1,4 @@
+```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -6,33 +7,33 @@
     "@type": "PostalAddress",
     "streetAddress": "123 Main Street",
     "addressLocality": "795",
-    "addressRegion": "Anytown",
-    "postalCode": "79500",
-    "addressCountry": "US"
+    "addressRegion": "Region",
+    "postalCode": "795",
+    "addressCountry": "Country"
   },
-  "telephone": "+1-800-123-4567",
-  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
-  "description": "Frog & Toad is a local business in 795 that offers a variety of services to cater to your needs.",
-  "image": "https://example.com/frog-toad-logo.jpg",
+  "telephone": "123-456-7890",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "image": "https://example.com/logo.png",
   "url": "https://www.frogandtoad795.com",
+  "description": "Frog & Toad is a local business in 795 specializing in providing high-quality products and services.",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "37.1234",
-    "longitude": "-122.4567"
+    "longitude": "-122.1234"
   },
+  "hasMap": "https://www.google.com/maps/place/123+Main+Street+795",
   "priceRange": "$$",
-  "servesCuisine": "American",
-  "hasMap": "https://goo.gl/maps/abcd1234",
+  "servesCuisine": "Cuisine Type",
+  "paymentAccepted": "Cash, Credit Card",
+  "email": "info@frogandtoad795.com",
   "sameAs": [
     "https://www.facebook.com/frogandtoad795",
-    "https://twitter.com/frogandtoad795",
     "https://www.instagram.com/frogandtoad795"
   ],
-  "makesOffer": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "url": "https://www.frogandtoad795.com/services"
+  "serviceType": "Service Type",
+  "serviceArea": {
+    "@type": "GeoShape",
+    "circle": "37.1234,-122.1234 5000"
   }
 }
+```
