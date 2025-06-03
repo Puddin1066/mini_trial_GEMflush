@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Modern Love",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "Stateville",
+    "postalCode": "220"
+  },
+  "telephone": "123-456-7890",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+  "description": "Modern Love is a local business offering a variety of services to help you look and feel your best.",
+  "image": "http://www.example.com/logo.jpg",
+  "url": "http://www.modernlove.com",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "37.7749",
+    "longitude": "-122.4194"
+  },
+  "priceRange": "$$",
+  "servesCuisine": "Beauty Services",
+  "paymentAccepted": "Cash, Credit Card",
+  "hasMap": "https://www.google.com/maps/place/Modern+Love+Cityville+Stateville+220",
+  "areaServed": {
+    "@type": "City",
+    "name": "Cityville"
+  },
+  "serviceArea": {
+    "@type": "GeoShape",
+    "circle": "37.7749,-122.4194 5000"
+  },
+  "serviceType": "Beauty Salon",
+  "serviceOffered": [
+    {
+      "@type": "Service",
+      "name": "Hair Styling"
+    },
+    {
+      "@type": "Service",
+      "name": "Manicure and Pedicure"
+    },
+    {
+      "@type": "Service",
+      "name": "Facials"
+    }
+  ]
+}
