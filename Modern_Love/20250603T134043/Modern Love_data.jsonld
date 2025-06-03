@@ -1,0 +1,19 @@
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Modern Love",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "220 Westminster St",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02903"
+  },
+  "url": "https://shopqueenofhearts.com/",
+  "telephone": "(401) 421-1471",
+  "description": "Boutique offering modern and minimalist home goods and gifts.",
+  "image": "https://shopqueenofhearts.com/images/modern-love.jpg",
+  "servesCuisine": "Home decor, minimalist design, modern gifts"
+}
+```
