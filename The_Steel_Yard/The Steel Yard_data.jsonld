@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Steel Yard",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "27",
+    "postalCode": "12345",
+    "addressRegion": "City",
+    "addressCountry": "Country"
+  },
+  "telephone": "+1234567890",
+  "url": "https://www.thesteelyard27.com",
+  "image": "https://www.thesteelyard27.com/images/logo.jpg",
+  "description": "The Steel Yard is a local business in 27 specializing in steel fabrication and welding services.",
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "74.0060"
+  },
+  "priceRange": "$$",
+  "servesCuisine": "Steel fabrication",
+  "additionalType": "http://www.productontology.org/id/Welding_services",
+  "sameAs": [
+    "https://www.facebook.com/thesteelyard27",
+    "https://www.instagram.com/thesteelyard27",
+    "https://twitter.com/thesteelyard27"
+  ]
+}
