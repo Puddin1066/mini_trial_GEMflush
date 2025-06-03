@@ -4,12 +4,15 @@
   "name": "Modern Love",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "220",
+    "streetAddress": "220 Westminster St",
     "addressLocality": "Providence",
     "addressRegion": "RI",
-    "postalCode": "02903"
+    "postalCode": "02903",
+    "addressCountry": "US"
   },
-  "telephone": "Contact: RI 02903",
-  "url": "Website: ",
-  "description": "Boutique offering modern and minimalist home goods and gifts."
+  "telephone": "(401) 421-1471",
+  "url": "https://shopqueenofhearts.com/",
+  "description": "Boutique offering modern and minimalist home goods and gifts.",
+  "servesCuisine": "Home decor",
+  "additionalType": "Minimalist design, Modern gifts"
 }
