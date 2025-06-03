@@ -4,15 +4,25 @@
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Johnston",
-    "addressLocality": "39",
-    "postalCode": "RI 02919"
+    "streetAddress": "",
+    "addressLocality": "Johnston",
+    "addressRegion": "RI",
+    "postalCode": "02919",
+    "addressCountry": "US"
   },
-  "telephone": "Contact: RI 02919",
+  "telephone": "",
   "url": "",
   "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
-  "openingHours": [
-    "Mo-Su 06:00-18:00"
-  ],
-  "servesCuisine": "Donuts"
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "",
+      "inLanguage": "en-US"
+    },
+    "expectsAcceptanceOf": {
+      "@type": "Offer",
+      "priceCurrency": "USD"
+    }
+  }
 }
