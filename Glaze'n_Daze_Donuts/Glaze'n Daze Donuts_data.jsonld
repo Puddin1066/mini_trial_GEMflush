@@ -1,0 +1,28 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Glaze'n Daze Donuts",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Cityville",
+    "addressRegion": "Stateville",
+    "postalCode": "12345",
+    "addressCountry": "US"
+  },
+  "telephone": "(123) 456-7890",
+  "url": "https://www.glazendazedonuts.com",
+  "image": "https://www.glazendazedonuts.com/logo.jpg",
+  "description": "Glaze'n Daze Donuts is a local donut shop offering a variety of delicious and fresh donuts.",
+  "openingHours": "Mo-Su 07:00-18:00",
+  "priceRange": "$",
+  "servesCuisine": "Donuts",
+  "hasMap": "https://www.google.com/maps/place/123+Main+Street+Cityville",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "currenciesAccepted": "USD",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(123) 456-7890",
+    "contactType": "customer service"
+  }
+}
