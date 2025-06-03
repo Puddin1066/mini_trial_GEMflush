@@ -1,28 +1,38 @@
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "LocalBusiness",
   "name": "Glaze'n Daze Donuts",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "",
+    "streetAddress": "39 Greenville Ave",
     "addressLocality": "Johnston",
     "addressRegion": "RI",
     "postalCode": "02919",
     "addressCountry": "US"
   },
-  "telephone": "",
-  "url": "",
+  "url": "https://www.facebook.com/GlazenDazeDonuts/",
+  "telephone": "(401) 270-5757",
+  "image": "https://www.facebook.com/GlazenDazeDonuts/",
   "description": "Family-owned donut shop offering unique flavors with a Southern-inspired touch.",
+  "openingHours": "Mo-Sa 07:00-17:00",
+  "priceRange": "$",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.836456,
+    "longitude": -71.516081
+  },
   "potentialAction": {
-    "@type": "OrderAction",
+    "@type": "ReserveAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "",
-      "inLanguage": "en-US"
+      "urlTemplate": "https://www.facebook.com/GlazenDazeDonuts/"
     },
-    "expectsAcceptanceOf": {
-      "@type": "Offer",
-      "priceCurrency": "USD"
+    "result": {
+      "@type": "Reservation",
+      "name": "Order Online"
     }
-  }
+  },
+  "hasMap": "https://goo.gl/maps/2G2QV7Z6eG7Vh2vJ9",
+  "businessType": "Bakery",
+  "servesCuisine": "Donuts"
 }
