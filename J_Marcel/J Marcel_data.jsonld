@@ -1,36 +1,46 @@
-```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "J Marcel",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "808",
-    "addressRegion": "US",
-    "postalCode": "12345"
+    "streetAddress": "808 Main Street",
+    "addressLocality": "Anytown",
+    "addressRegion": "CA",
+    "postalCode": "90210",
+    "addressCountry": "US"
   },
-  "telephone": "+1234567890",
-  "openingHours": "Mo-Fr 09:00-17:00",
-  "description": "J Marcel is a local business offering a variety of services in 808.",
+  "telephone": "123-456-7890",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
   "image": "https://example.com/logo.jpg",
+  "url": "https://www.jmarcel808.com",
+  "description": "J Marcel is a local business in 808 that offers a variety of services.",
+  "servesCuisine": "American",
   "priceRange": "$$",
-  "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card",
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128",
-    "longitude": "74.0060"
+    "latitude": "37.7749",
+    "longitude": "-122.4194"
   },
-  "servesCuisine": "Various",
-  "menu": "https://example.com/menu",
-  "slogan": "Your go-to destination in 808",
-  "hasMap": "https://example.com/map",
-  "url": "https://example.com/jmarcel",
+  "hasMap": "https://www.google.com/maps/place/808+Main+Street+Anytown+CA",
   "sameAs": [
-    "https://www.facebook.com/jmarcel",
-    "https://www.instagram.com/jmarcel",
-    "https://twitter.com/jmarcel"
+    "https://www.facebook.com/jmarcel808",
+    "https://twitter.com/jmarcel808",
+    "https://www.instagram.com/jmarcel808"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
   ]
 }
-```
